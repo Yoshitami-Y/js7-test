@@ -15,7 +15,7 @@
       "withSubagentClusterIdExpr" : false,
       "executable" : {
         "TYPE" : "ShellScriptExecutable",
-        "script" : "#!/bin/bash\n\necho \"using wowwwrkflow: $JS7_WORKFLOW_NAME\"\necho \"running job: $JS7_JOB_NAME\"\n\nfor ((i=1; i<=100; i++)); do\n   echo \"Hello World no. $i\"\n   sleep 1a\ndone\n",
+        "script" : "#!/bin/bash\n\necho \"ausing wowwwrkflow: $JS7_WORKFLOW_NAME\"\necho \"running job: $JS7_JOB_NAME\"\n\nfor ((i=1; i<=100; i++)); do\n   echo \"Hello World no. $i\"\n   sleep 1a\ndone\n",
         "v1Compatible" : false
       },
       "skipIfNoAdmissionForOrderDay" : false,
